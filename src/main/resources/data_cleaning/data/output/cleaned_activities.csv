@@ -1,0 +1,207 @@
+name,phone_number,latitude,longitude,rating,user_rating_count,type
+Matto Napoletano,+389 71 343 063,41.9963473,21.4243335,4.7,3580.0,italian_restaurant
+Restaurant Skopski Merak,+389 78 343 630,42.0010096,21.4199187,4.6,5283.0,restaurant
+Mother Teresa Memorial House,+389 2 329 0674,41.99382,21.4308717,4.4,3683.0,other
+Kosmos Kebabchilnica,+389 2 321 1908,42.0025695,21.4384212,4.3,2645.0,restaurant
+Silbo,+389 71 206 205,42.0000927,21.4174075,4.5,4294.0,bakery
+Destan,+389 2 322 4063,41.9997012,21.436087,3.7,3918.0,barbecue_restaurant
+Restaurant „Old House“,+389 2 313 1376,41.9969072,21.4383018,4.6,3125.0,restaurant
+Eski Burek Shop,,42.0005479,21.4369738,4.3,917.0,bakery
+Debar Maalo,+389 70 272 766,42.003532,21.4168175,4.4,1863.0,restaurant
+Gostilnica Dukat,+389 72 306 198,41.9949773,21.4129362,4.6,2972.0,restaurant
+Public Room,+389 78 250 554,41.9899429,21.4259388,4.5,2537.0,restaurant
+Museum of the Macedonian Struggle for Independence,+389 2 325 6668,41.9979554,21.4331383,4.5,1369.0,history_museum
+CARDAK,+389 70 410 919,42.00217,21.4222741,4.4,1642.0,eastern_european_restaurant
+Pelister,+389 78 411 302,41.9953782,21.4313878,4.4,3749.0,restaurant
+Salvatore Italian Restaurant,+389 70 248 248,41.9837484,21.4223475,4.4,324.0,italian_restaurant
+Fast Food Royal 2,+389 78 870 000,42.0033999,21.4171433,4.0,1543.0,fast_food_restaurant
+Sakash?,+389 70 399 957,41.9858774,21.4504345,4.6,224.0,restaurant
+Fast Food 7 - Aerodrom,+389 2 244 7774,41.9895118,21.4597428,4.5,3339.0,fast_food_restaurant
+Roosty Skopje,+389 75 478 134,42.0015746,21.4035183,4.6,1881.0,restaurant
+Beer Garden,+389 72 273 273,42.0010188,21.4203608,4.2,771.0,bar
+The Dude Specialty Coffee,+389 70 200 021,41.9978001,21.4198865,4.9,528.0,cafe
+Casa Bar Skopje,+389 72 273 333,42.0008631,21.4196145,4.3,640.0,bar
+Loznica National Restaurant,+389 70 617 749,41.9953934,21.4099925,4.2,642.0,restaurant
+Dva Elena,+389 2 306 0900,41.9929578,21.4078759,4.5,1496.0,restaurant
+Kafana „Debar Maalo“,+389 71 279 660,42.0008454,21.4200545,4.1,747.0,restaurant
+Gradska Kafeana Dvor,+389 78 430 330,41.9948053,21.4138716,4.1,994.0,restaurant
+Bakery La Delicious,+389 2 311 7597,41.9983585,21.4226786,4.4,1137.0,bakery
+Intermezzo Music Bar,+389 70 268 454,41.9947478,21.4140648,4.3,923.0,bar
+Fast Food 7,+389 2 321 1914,41.9974682,21.4233074,4.4,1852.0,fast_food_restaurant
+Urban Bistro „Kantina“,+389 70 222 137,42.0007014,21.4190979,4.5,455.0,bistro
+Vodenica Mulino,+389 2 323 2877,41.9948659,21.4136129,4.6,1051.0,restaurant
+Bar Roosevelt,,42.0019698,21.4134773,4.4,663.0,bar
+Morino,+389 75 404 400,41.9948034,21.4100711,4.3,190.0,pizza_restaurant
+The Gallery Café,+389 72 535 353,42.0037303,21.4149077,4.4,1451.0,cafe
+BKW Hybrid Bar,+389 71 216 348,41.9970804,21.4061183,4.3,948.0,bar
+Archaeological Museum of the Republic of North Macedonia,+389 2 323 3999,41.996783,21.4343423,3.9,1658.0,museum
+Museum of Contemporary Art Skopje,+389 2 311 7734,42.0038889,21.4327778,4.1,697.0,art_museum
+Museum of the City of Skopje,+389 2 311 4742,41.9910127,21.4289376,4.2,724.0,museum
+Holocaust Memorial Center for the Jews of Macedonia,+389 2 312 2697,41.9984402,21.4333552,4.5,389.0,history_museum
+Youth Cultural Center (YCC),+389 2 311 5225,41.9964916,21.4427678,4.7,636.0,cultural_center
+Café Kotur,+389 75 760 497,41.9945448,21.429421,4.6,678.0,bar
+National Gallery of North Macedonia,+389 2 313 3102,41.9986907,21.4357692,4.4,482.0,art_gallery
+Museum of Macedonia,+389 2 311 6044,42.0026521,21.4362286,3.9,240.0,history_museum
+National Gallery – Čifte Hammam,+389 2 322 7986,42.0011685,21.4372826,4.4,2092.0,museum
+Kapan Inn,+389 70 674 111,42.0003224,21.4368554,3.9,46.0,history_museum
+Frosina Cinema,+389 2 311 5225,41.9964136,21.4425707,4.5,190.0,movie_theater
+Milenium City Cinema,+389 2 312 0389,41.9946399,21.4358895,4.3,614.0,movie_theater
+Childrens' Teatre Center,,42.0019371,21.4381948,4.4,13.0,movie_theater
+arheološki muzej skoplje,,41.996147,21.4358896,0.0,0.0,museum
+Krug Film Production,,42.0027926,21.4258296,1.0,2.0,movie_theater
+Forza Wine Bar & Restaurant,+389 2 307 1200,41.9996616,21.3909492,4.2,2258.0,restaurant
+Desserts Oselot,+389 70 380 333,41.9983717,21.3986025,4.2,644.0,dessert_restaurant
+Fast Food 7 - Karposh,+389 72 529 734,42.0031304,21.4005709,4.5,1966.0,fast_food_restaurant
+Oeno Wine Bar & Deli,+389 2 309 0100,42.008315,21.3940034,4.5,441.0,wine_bar
+Restaurant Sidro 2,+389 70 303 535,42.0044198,21.3947264,4.4,1724.0,seafood_restaurant
+Pogon Bar,+389 70 583 395,41.9964031,21.3980855,4.7,307.0,bar
+Pizza & Pasta Enriko,+389 2 306 1273,42.0031667,21.3995267,4.4,2647.0,italian_restaurant
+Revija,+389 70 222 817,42.0034303,21.3982417,3.7,1189.0,restaurant
+PLAY игротека & кафе,+389 75 234 966,41.9973866,21.3983609,4.4,246.0,cafe
+Rutina Coffee House,,42.0038428,21.39821,4.7,86.0,coffee_shop
+The Nest Skopje,+389 75 351 135,42.0032467,21.3910754,4.5,158.0,restaurant
+Fotka Restoran,+389 2 306 3908,42.0017209,21.3991215,4.6,384.0,restaurant
+Skara Bar,+389 75 727 110,42.0016434,21.3923802,4.5,1142.0,restaurant
+Soma Lounge Bar,+389 70 222 125,41.9979277,21.398128,3.6,139.0,lounge_bar
+Café „Central Perk“,+389 71 221 166,41.9975101,21.3983571,4.7,284.0,coffee_shop
+Slatkarnica Palma,+389 70 355 550,42.0039253,21.3872356,4.1,566.0,pastry_shop
+National Restaurant Makedonska Kukja,+389 70 208 519,41.9960241,21.4021817,4.3,1240.0,restaurant
+Chashka Restaurant,+389 71 304 186,41.9953363,21.3986565,4.3,623.0,restaurant
+Martini Cafe,+389 2 306 1127,42.0031844,21.4000883,4.3,1702.0,cafe
+Old Bazaar - Skopje Old Town,,42.0007751,21.4367395,4.5,25902.0,other
+Stone Bridge,,41.9969525,21.4330059,4.7,7541.0,bridge
+Archbishop Cathedral „St. Clement of Ohrid”,+389 2 322 7450,41.9985237,21.4264284,4.8,2428.0,church
+„Macedonia“ Square,,41.9962799,21.4318703,4.6,5881.0,tourist_attraction
+Mustafa Pasha Mosque,+389 2 329 7204,42.0020249,21.4354192,4.7,1250.0,mosque
+Hotel Arka,+389 2 323 0603,42.0015528,21.4385933,4.3,767.0,hotel
+Kaçamaku Skopje,+389 70 709 799,42.0002959,21.4357488,4.2,416.0,restaurant
+Soul Kitchen - Macedonian Wine & Cuisine,+389 78 887 733,41.9955607,21.4339472,4.3,3794.0,soul_food_restaurant
+Alexandar Square Boutique Hotel,+389 2 311 1141,41.9951386,21.4298189,4.5,386.0,hotel
+Breadway Taste Gallery,+389 70 236 665,41.9947223,21.4310693,4.1,600.0,cake_shop
+Sweets Shop Rigara,+389 2 322 2853,41.999484,21.435799,4.5,726.0,pastry_shop
+Hotel Senigallia,+389 2 322 4044,41.9959336,21.4344868,4.6,1030.0,hotel
+Japanese Restaurant SushiCo,+389 2 321 7874,41.9996329,21.4238844,4.4,1475.0,sushi_restaurant
+Café Block,+389 78 838 826,41.9875458,21.4511297,4.4,1197.0,cafe
+Arte Dakar,+221 33 868 45 30,41.9973859,21.4512754,4.3,158.0,art_gallery
+Lounge Bar Get,+389 2 240 0501,41.9919768,21.4496362,4.2,1552.0,restaurant
+Café Palma,+389 2 246 0512,41.9886307,21.4531067,4.2,2008.0,cake_shop
+Pan Pan - Bakery & Specialty Coffee,+389 72 261 478,41.9853715,21.4499994,4.7,203.0,bakery
+Bistro Juzna Pruga,+389 73 844 444,41.9910511,21.4467981,3.7,408.0,restaurant
+La Tana Restaurant,+389 77 592 211,41.9894685,21.4392178,4.1,1140.0,restaurant
+Куќа,+389 71 204 140,41.9932767,21.4375644,4.7,712.0,restaurant
+Irish Pub Saint Patrick,+389 2 325 6337,41.9950676,21.4356613,4.3,3256.0,irish_pub
+Bien,+389 70 822 799,41.9916526,21.4523979,4.1,406.0,restaurant
+Fitness House Aerodrom,+389 70 299 966,41.9858774,21.4504345,3.7,79.0,restaurant
+Aviator,+389 78 444 399,41.9872709,21.4518606,3.9,389.0,restaurant
+Трач Бар,+389 71 515 117,41.9896053,21.4479782,4.3,333.0,bar
+Restoran Dion (Aerodrom),+389 2 306 0070,41.9816732,21.4561537,4.0,1149.0,restaurant
+Srekja Bar & Food,+389 71 386 622,41.9810207,21.4554409,4.2,373.0,bar
+Verona Picerija Aerodrom,+389 70 361 500,41.9837224,21.4551019,4.5,250.0,pizza_restaurant
+Baking Bread,+389 70 334 341,41.9825189,21.4723901,4.0,520.0,fast_food_restaurant
+Silbo Furna - Biser Mall,+389 70 800 400,41.9851912,21.4660279,4.3,456.0,bakery
+KFC Drive Thru - Novo Lisiche,,41.9879358,21.4740608,3.8,296.0,fast_food_restaurant
+Moja Kuḱa,+389 70 318 504,41.9902604,21.4538376,4.3,673.0,restaurant
+Pastrmajlija & Grill House,+389 76 436 605,41.9867739,21.4653873,4.3,927.0,restaurant
+Nalej,+389 2 245 0590,41.9838746,21.4676231,4.4,700.0,restaurant
+Gama,+389 70 906 908,41.985365,21.465619,4.5,925.0,restaurant
+Restaurant Kabranti,+389 71 217 216,41.9799433,21.4665324,4.8,242.0,italian_restaurant
+Gostilnica Trokadero,+389 78 995 121,41.9897923,21.4588546,4.4,726.0,restaurant
+Munchies Burger,+389 71 699 909,41.9878867,21.4534952,3.0,547.0,fast_food_restaurant
+Domino's Pizza (Aerodrom),+389 2 312 5125,41.9838009,21.4699348,3.7,333.0,pizza_restaurant
+Daily Food & Wine Lisa,+389 70 358 500,41.9812988,21.4727408,4.4,1000.0,restaurant
+Kinder Kafe,+389 73 877 778,41.9801057,21.4593934,5.0,21.0,cafe
+Skara Leskovac,+389 2 244 2544,41.989197,21.4634431,4.5,1019.0,fast_food_restaurant
+Café Film,+389 2 246 2077,41.9810608,21.4714861,4.5,431.0,cafe
+Café Get,+389 2 277 7457,41.9727586,21.444993,4.3,2406.0,cafe
+15 za 12,+389 71 616 500,41.9768223,21.4463797,4.8,460.0,restaurant
+Bar Groovelyn,+389 72 209 606,41.9735508,21.4375199,4.6,210.0,bar
+Point Café,+389 70 353 085,41.9767806,21.4443851,4.4,575.0,cafe
+Quatro Caffe,+389 78 841 484,41.9734147,21.4462515,4.3,571.0,cafe
+Akademija Caffe,+389 79 218 020,41.979086,21.4383962,4.4,122.0,coffee_shop
+Kinoverzum - Kisela Voda,+389 71 290 239,41.9731365,21.444081,4.3,72.0,movie_theater
+"Тинејџтека ""Во светот на тинејџерите""",+389 75 233 777,41.9767303,21.4456951,4.5,35.0,cafe
+Restaurant Bratski Merak,+389 78 921 138,41.9841892,21.4388675,4.6,858.0,restaurant
+Mint Caffee Bar,+389 78 445 405,41.9740448,21.4452418,4.4,145.0,coffee_shop
+Kafe Igroteka Happy Kids (Kisela Voda),+389 76 863 637,41.9763395,21.4451975,3.6,43.0,cafe
+OKTA,+389 75 399 893,41.9827805,21.4521448,3.9,78.0,gas_station
+Café Mango,+389 70 457 050,41.980533,21.4396477,4.2,258.0,cafe
+Smash Burger,+389 71 208 214,41.9825827,21.4520237,4.1,127.0,hamburger_restaurant
+Bass Cafe,+389 70 266 841,41.9733315,21.4456081,4.4,420.0,cafe
+Freshii Healthy Food & Coffee,+389 71 306 681,41.9834266,21.4387798,4.0,63.0,restaurant
+Picerija Verona Kisela Voda,+389 70 361 858,41.976785,21.4447654,4.6,93.0,pizza_restaurant
+Magic House,+389 76 212 229,41.9807237,21.4391233,4.4,98.0,restaurant
+Restaurant Kotle,+389 72 307 179,41.9757799,21.4446861,4.7,57.0,restaurant
+Mind,+389 77 673 050,41.9828224,21.4349465,4.7,80.0,cafeteria
+Donuts from Hrom,+389 70 822 696,42.0056036,21.3776223,4.6,981.0,donut_shop
+Badu Bar,+389 71 644 488,42.0071778,21.3722345,4.7,1236.0,bar
+Dobar Bar,,42.0081153,21.3688689,4.3,469.0,cafe
+Gostilnica Ubac,+389 70 275 594,42.008373,21.367865,4.6,635.0,restaurant
+Kafe igroteka Palavkovci,+389 78 900 888,42.0023185,21.3626846,4.6,69.0,playground
+Gostilnica Jug,+389 78 439 199,42.0066347,21.3723119,4.5,411.0,restaurant
+Скара на кило Кaj 61,+389 72 712 555,42.0103682,21.3739589,4.3,115.0,restaurant
+CERTUS Technical examination and registration of vehicles,+389 78 320 374,42.0085148,21.3823933,4.3,158.0,other
+Pizza Gigo,+389 78 413 461,42.0075035,21.3713071,4.5,690.0,pizza_restaurant
+Restaurant Kaskada,+389 70 360 792,42.00377,21.379547,4.3,155.0,restaurant
+Igroteka Kidobar by Kinderlend,+389 71 944 227,42.0107368,21.3706453,4.6,35.0,event_venue
+Porta Vlae Pub & Kitchen,+389 70 419 760,42.0071747,21.371774,4.5,134.0,gastropub
+Viva,+389 2 204 7347,42.010362,21.3741921,4.4,329.0,restaurant
+Cujo,+389 76 778 233,42.0074136,21.3736074,4.4,100.0,fast_food_restaurant
+Korzo Cafe / Корзо Кафе,,42.0071719,21.3629549,4.3,69.0,coffee_shop
+Шума - Shuma - slow living concept caffè,+389 78 290 778,42.0079957,21.3694678,4.8,84.0,cafe
+Aviator,+389 75 310 225,42.0074365,21.3647302,4.4,147.0,bar
+Pizza Berlusconi,+389 78 502 222,42.0090107,21.3610911,4.6,184.0,meal_takeaway
+Станица Чешма,+389 71 888 166,42.0069965,21.361927,4.6,72.0,restaurant
+Kanela - Porta Vlae,+389 2 204 4253,42.0071318,21.3681293,3.7,19.0,cake_shop
+Gluvo Kuče,+389 71 721 545,42.0004932,21.4212006,4.6,844.0,bar
+Fitness House,+389 72 699 999,42.0005863,21.4147166,3.9,919.0,restaurant
+Bar Kino Karpoš,+389 2 321 3515,42.0010556,21.4176278,4.5,934.0,bar
+Igroteka WOW Land,+389 70 390 038,42.0019698,21.4134773,4.7,57.0,cafe
+Cafe Bar Che,+389 71 696 063,41.9990661,21.4172274,4.7,1044.0,coffee_shop
+Bar Cherry,+389 2 615 2666,41.9986507,21.4187324,4.5,782.0,cafe
+Café Broz,+389 70 306 077,42.0001558,21.4168236,4.0,1048.0,cafe
+Mezzo Street Café,,41.994726,21.4173252,4.0,188.0,cafe
+Beer Bar Woodstock,+389 70 315 495,41.9955653,21.4112987,4.6,688.0,bar
+Perfeto,+389 78 221 787,41.995758,21.420043,4.5,208.0,cake_shop
+Salud,+389 70 353 043,41.9976003,21.417019,4.3,78.0,restaurant
+Doner Plaset (Univerzalna),+389 70 232 717,41.9995879,21.4171939,3.1,233.0,hamburger_restaurant
+Vega,+389 76 210 547,41.9993944,21.4130634,4.6,289.0,vegetarian_restaurant
+Fat Kitchen Bistro,+389 71 888 739,41.9982652,21.4165746,4.6,405.0,restaurant
+The Brunch Cafe,+389 77 661 424,41.996352,21.4156215,4.7,287.0,restaurant
+Долап,+389 70 382 780,41.9985127,21.415996,4.5,403.0,coffee_shop
+L'аngolo Di Caffè,+389 70 830 990,41.9965687,21.4188971,4.8,197.0,coffee_shop
+Restaurant Hedonia,+389 78 809 801,41.9945164,21.4165547,4.7,262.0,restaurant
+Amigos Mexican Restaurant & Bar,+389 71 230 315,41.993301,21.430084,4.5,2662.0,mexican_restaurant
+Burger King,,41.9958969,21.432352,3.5,775.0,fast_food_restaurant
+La Terrazza Restaurant,+389 2 311 3380,41.9951303,21.431652,4.4,2060.0,italian_restaurant
+Restaurant Dion,+389 2 310 1030,41.9956563,21.4334652,4.0,2150.0,restaurant
+Kolektiv,+389 2 314 4345,41.9958191,21.4319886,4.3,1598.0,restaurant
+Teteks 3,+389 71 507 607,41.9947759,21.4365135,4.1,304.0,fast_food_restaurant
+Mixology Bar Owl,+389 75 306 306,41.9950071,21.4356458,4.8,323.0,bar
+Beertija Pub,+389 2 277 9959,41.9940862,21.4342779,4.6,741.0,bar
+Restaurant Plaza de Toros,+389 2 322 8155,41.9952028,21.4352302,4.3,2113.0,restaurant
+Restaurant National,+389 2 321 4200,41.993297,21.435103,4.3,1159.0,restaurant
+Café Joy,+389 2 523 3355,41.9930269,21.4302744,4.6,464.0,cafe
+Gino Italian Restaurant,+389 2 312 1109,41.9942974,21.4340831,4.3,2109.0,italian_restaurant
+Hotel Alexandar II,+389 2 312 2472,41.9956367,21.4276931,4.6,537.0,hotel
+Amigos - Železnička,+389 75 430 537,41.9912728,21.4268369,4.5,680.0,restaurant
+Bonobo | Drink Vinyl Plate,+389 70 228 880,41.9896214,21.4295243,4.2,245.0,restaurant
+Forza Fusion Bar & Restaurant,+389 76 217 015,41.9899738,21.431307,4.1,361.0,restaurant
+Baking Bread - Rekord,+389 70 216 090,41.9951423,21.429214,3.4,801.0,fast_food_restaurant
+Distrikt,+389 71 238 522,41.996178,21.430379,4.5,1025.0,restaurant
+7 Skara Restaurant,+389 2 322 4000,41.9949586,21.4275942,4.6,593.0,barbecue_restaurant
+Rock Bar Garson,+389 2 322 0290,41.995508,21.4275157,4.4,573.0,bar
+Three Garden & Bar,+389 70 282 788,41.9906709,21.4252861,3.9,641.0,restaurant
+"LaFe Coffe, Drinks & Food",+389 75 669 000,41.9949427,21.4245692,4.0,118.0,bar
+Paradise Food,+389 76 424 104,41.9944771,21.4275829,4.7,269.0,vegan_restaurant
+Bistro Comedy,+389 70 371 834,41.9945286,21.4254035,4.4,404.0,bistro
+Café Viking,+389 78 349 262,41.9926599,21.4210694,4.4,237.0,cafe
+Sushico Zen Skopje,+389 2 323 2325,41.9911463,21.4270349,4.1,255.0,sushi_restaurant
+Café Rendezvous,+389 78 321 506,41.9914629,21.4224667,4.6,326.0,cafe
+Sarajeva SteakHouse Diamond Mall,+389 75 339 993,41.9912684,21.4271127,4.3,111.0,restaurant
+Play All Day Café,+389 72 311 077,41.9925128,21.4299921,4.5,61.0,bar
+Gurman,+389 2 317 6200,41.9916741,21.4222812,4.6,334.0,restaurant
+M HOUSE 5,+389 71 545 341,41.9910135,21.4275603,4.1,95.0,coffee_shop
+Giro Beko Fast Food,+389 78 243 562,41.9934364,21.4274932,3.6,266.0,fast_food_restaurant
+Su Roastery,+389 71 211 288,41.9908512,21.4275573,3.9,312.0,coffee_shop
+Mono Cocktail Bar,+389 72 311 002,41.9908904,21.4274274,4.7,60.0,cocktail_bar
+Sveti Nikola,+389 2 317 6219,41.9905265,21.420669,4.6,131.0,bakery
