@@ -1,8 +1,7 @@
 package com.discover.discover_local_abilities_javaedition.controller;
 
-import com.discover.discover_local_abilities_javaedition.model.Activity;
+import com.discover.discover_local_abilities_javaedition.dto.ActivityWithHoursDTO;
 import com.discover.discover_local_abilities_javaedition.service.ActivityService;
-import com.discover.discover_local_abilities_javaedition.service.impl.ActivityServiceImpl;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -13,14 +12,14 @@ import java.util.List;
 @RequestMapping(value="/api/activities")
 public class ActivityController {
 
-    private final ActivityServiceImpl activityService;
+    private final ActivityService activityService;
 
-    public ActivityController(ActivityServiceImpl activityService){
+    public ActivityController(ActivityService activityService){
         this.activityService = activityService;
     }
 
     @GetMapping
-    public List<Activity> listAll(){
+    public List<ActivityWithHoursDTO> listAll(){
         return activityService.findAll();
     }
 }

@@ -1,13 +1,17 @@
 package com.discover.discover_local_abilities_javaedition.service.impl;
 
+import com.discover.discover_local_abilities_javaedition.dto.WorkingHoursDTO;
 import com.discover.discover_local_abilities_javaedition.model.Activity;
 import com.discover.discover_local_abilities_javaedition.model.WorkingHours;
 import com.discover.discover_local_abilities_javaedition.repository.ActivityRepository;
 import com.discover.discover_local_abilities_javaedition.repository.WorkingHoursRepository;
 import com.discover.discover_local_abilities_javaedition.service.ActivityService;
+import com.discover.discover_local_abilities_javaedition.dto.ActivityWithHoursDTO;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 @Service
 public class ActivityServiceImpl implements ActivityService {
@@ -19,9 +23,45 @@ public class ActivityServiceImpl implements ActivityService {
         this.workingHoursRepository = workingHoursRepository;
     }
 
+
     @Override
-    public List<Activity> findAll() {
-        return activityRepository.findAll();
+    public List<ActivityWithHoursDTO> findAll() {
+        List<Activity> activities = activityRepository.findAll();
+        List<Long> activityIds = activities.stream().map(Activity::getId).toList();
+
+        List<WorkingHours> workingHours = workingHoursRepository.findByActivityId_IdIn(activityIds);
+
+        Map<Long, List<WorkingHoursDTO>> hoursByActivityId = workingHours.stream()
+                .collect(Collectors.groupingBy(
+                        wh -> wh.getActivityId().getId(),
+                        Collectors.mapping(this::toWorkingHoursDTO, Collectors.toList())
+                ));
+
+        return activities.stream()
+                .map(activity -> new ActivityWithHoursDTO(
+                        activity.getId(),
+                        activity.getName(),
+                        activity.getPhoneNumber(),
+                        activity.getLatitude(),
+                        activity.getLongitude(),
+                        activity.getRating(),
+                        activity.getUserRatingCount(),
+                        activity.getType(),
+                        hoursByActivityId.getOrDefault(activity.getId(), List.of())
+                ))
+                .toList();
+    }
+
+    private WorkingHoursDTO toWorkingHoursDTO(WorkingHours wh) {
+        return new WorkingHoursDTO(
+                wh.getDayOfWeek(),
+                wh.getOpenTime(),
+                wh.getClosedTime(),
+                wh.getBreakTimeStart(),
+                wh.getBreakTimeEnd(),
+                wh.is24h(),
+                wh.isClosed()
+        );
     }
 
     @Override

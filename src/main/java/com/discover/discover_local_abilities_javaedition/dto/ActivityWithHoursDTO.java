@@ -1,19 +1,14 @@
-package com.discover.discover_local_abilities_javaedition.model;
+package com.discover.discover_local_abilities_javaedition.dto;
 
-import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
+import com.discover.discover_local_abilities_javaedition.model.WorkingHours;
 import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.AllArgsConstructor;
 
 import java.util.List;
 
-@Entity
 @Data
 @AllArgsConstructor
-@NoArgsConstructor
-public class Activity {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+public class ActivityWithHoursDTO {
     private Long id;
     private String name;
     private String phoneNumber;
@@ -22,4 +17,5 @@ public class Activity {
     private Double rating;
     private int userRatingCount;
     private String type;
+    private List<WorkingHoursDTO> workingHours;
 }
