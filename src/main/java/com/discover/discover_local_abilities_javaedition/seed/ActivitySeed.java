@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Component
-@Profile("seed")
+@Profile("activitySeed")
 public class ActivitySeed implements CommandLineRunner {
 
     private final ActivityRepository activityRepository;
@@ -41,7 +41,7 @@ public class ActivitySeed implements CommandLineRunner {
         jdbcTemplate.execute("TRUNCATE TABLE activity RESTART IDENTITY CASCADE");
 
         List<Activity> activities = readActivities("data_cleaning/data/output/cleaned_activities.csv");
-        activities = activityRepository.saveAll(activities); // now has generated IDs
+        activities =  activityRepository.saveAll(activities); // now has generated IDs
 
         List<WorkingHours> workingHours = readWorkingHours("data_cleaning/data/output/working_hours.csv", activities);
         workingHoursRepository.saveAll(workingHours);

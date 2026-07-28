@@ -8,7 +8,7 @@ import java.util.List;
 
 public interface ActivityService {
     List<ActivityWithHoursDTO> findAll();
-    Activity findByIndex(Long id);
+    ActivityWithHoursDTO findByIndex(Long id);
     List<WorkingHours> listWorkingHoursOfActivity(Long id);
 //    List<Activity> findAllWithWorkingHours();
 }

@@ -9,4 +9,6 @@ import java.util.List;
 @Repository
 public interface WorkingHoursRepository extends JpaRepository<WorkingHours, Long> {
     List<WorkingHours> findByActivityId_IdIn(List<Long> activityIds);
+    List<WorkingHours> findByActivityId_Id(Long id);
+
 }
