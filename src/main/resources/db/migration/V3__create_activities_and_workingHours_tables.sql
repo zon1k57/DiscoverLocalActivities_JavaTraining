@@ -7,7 +7,7 @@ CREATE TABLE activity (
     latitude            DOUBLE PRECISION,
     longitude           DOUBLE PRECISION,
     rating              DOUBLE PRECISION,
-    user_rating_count   INTEGER NOT NULL DEFAULT 0,
+    user_rating_count   INTEGER,
     type                VARCHAR(100)
 );
 

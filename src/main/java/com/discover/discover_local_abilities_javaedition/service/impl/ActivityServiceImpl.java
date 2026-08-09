@@ -1,5 +1,12 @@
 package com.discover.discover_local_abilities_javaedition.service.impl;
 
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
+
+import org.springframework.stereotype.Service;
+
+import com.discover.discover_local_abilities_javaedition.dto.ActivityWithHoursDTO;
 import com.discover.discover_local_abilities_javaedition.dto.WorkingHoursDTO;
 import com.discover.discover_local_abilities_javaedition.model.Activity;
 import com.discover.discover_local_abilities_javaedition.model.WorkingHours;
@@ -7,13 +14,6 @@ import com.discover.discover_local_abilities_javaedition.model.exceptions.Activi
 import com.discover.discover_local_abilities_javaedition.repository.ActivityRepository;
 import com.discover.discover_local_abilities_javaedition.repository.WorkingHoursRepository;
 import com.discover.discover_local_abilities_javaedition.service.ActivityService;
-import com.discover.discover_local_abilities_javaedition.dto.ActivityWithHoursDTO;
-import org.springframework.stereotype.Service;
-
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
-import java.util.stream.Collectors;
 
 @Service
 public class ActivityServiceImpl implements ActivityService {
@@ -27,8 +27,26 @@ public class ActivityServiceImpl implements ActivityService {
 
 
     @Override
-    public List<ActivityWithHoursDTO> findAll() {
+    public List<ActivityWithHoursDTO> findAll(String category, Double minRating, Integer minRatingCount) {
         List<Activity> activities = activityRepository.findAll();
+
+        if (category != null && !category.isBlank()) {
+        String cat = category.toLowerCase();
+        activities = activities.stream()
+                .filter(a -> a.getType() != null && a.getType().toLowerCase().contains(cat))
+                .toList();
+         }
+        if (minRating != null) {
+                activities = activities.stream()
+                .filter(a -> a.getRating() != null && a.getRating() >= minRating)
+                .toList();
+        }
+        if (minRatingCount != null) {
+                activities = activities.stream()
+                .filter(a -> a.getUserRatingCount() != null && a.getUserRatingCount() >= minRatingCount)
+                .toList();
+        }
+        
         List<Long> activityIds = activities.stream().map(Activity::getId).toList();
 
         List<WorkingHours> workingHours = workingHoursRepository.findByActivityId_IdIn(activityIds);

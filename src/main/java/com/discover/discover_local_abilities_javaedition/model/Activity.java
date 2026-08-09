@@ -1,11 +1,12 @@
 package com.discover.discover_local_abilities_javaedition.model;
 
-import jakarta.persistence.*;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import java.util.List;
 
 @Entity
 @Data
@@ -20,6 +21,6 @@ public class Activity {
     private Double latitude;
     private Double longitude;
     private Double rating;
-    private int userRatingCount;
+    private Integer userRatingCount;
     private String type;
 }

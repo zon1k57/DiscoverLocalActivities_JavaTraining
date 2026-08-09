@@ -6,6 +6,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -21,8 +22,11 @@ public class ActivityController {
     }
 
     @GetMapping
-    public List<ActivityWithHoursDTO> listAll(){
-        return activityService.findAll();
+    public List<ActivityWithHoursDTO> listAll(
+            @RequestParam(required = false) String category,
+            @RequestParam(required = false) Double minRating,
+            @RequestParam(required = false) Integer minRatingCount){
+        return activityService.findAll(category,minRating,minRatingCount);
     }
 
     @GetMapping("/{id}")
