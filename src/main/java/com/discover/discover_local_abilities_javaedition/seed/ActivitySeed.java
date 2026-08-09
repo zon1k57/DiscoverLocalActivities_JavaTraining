@@ -83,7 +83,7 @@ public class ActivitySeed implements CommandLineRunner {
                 int activityId = Integer.parseInt(row[0]); // 1-based ID from CSV
                 wh.setActivityId(activities.get(activityId - 1)); // convert to 0-based
 
-                wh.setDayOfWeek(row[1]);
+                wh.setDayOfWeek(row[1].trim().toUpperCase());
                 wh.setOpenTime(parseTime(row[2]));
                 wh.setClosedTime(parseTime(row[3]));
                 wh.setBreakTimeStart(parseTime(row[4]));
