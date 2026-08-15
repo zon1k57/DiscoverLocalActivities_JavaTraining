@@ -26,6 +26,8 @@ public class ActivityServiceImpl implements ActivityService {
     }
 
 
+
+    // Function for all activity fetch
     @Override
     public List<ActivityWithHoursDTO> findAll(String category, Double minRating, Integer minRatingCount) {
         List<Activity> activities = activityRepository.findAll();
@@ -104,6 +106,35 @@ public class ActivityServiceImpl implements ActivityService {
                 hours
         );
     }
+
+    // Function for rounding and finding nearby activities
+    @Override
+    public List<ActivityWithHoursDTO> findNearby(Double lat, Double lon, Double radiusKm,
+                                              String category, Double minRating, Integer minRatingCount) {
+    double latDelta = radiusKm / 111.0;
+    double lonDelta = radiusKm / (111.0 * Math.cos(Math.toRadians(lat)));
+
+    List<Activity> activities = activityRepository.findWithinBoundingBox(
+        lat - latDelta, lat + latDelta,
+        lon - lonDelta, lon + lonDelta,
+        category, minRating, minRatingCount
+    );
+
+    List<Long> activityIds = activities.stream().map(Activity::getId).toList();
+    List<WorkingHours> workingHours = workingHoursRepository.findByActivityId_IdIn(activityIds);
+    Map<Long, List<WorkingHoursDTO>> hoursByActivityId = workingHours.stream()
+        .collect(Collectors.groupingBy(wh -> wh.getActivityId().getId(),
+            Collectors.mapping(this::toWorkingHoursDTO, Collectors.toList())));
+
+    return activities.stream()
+        .map(activity -> new ActivityWithHoursDTO(
+            activity.getId(), activity.getName(), activity.getPhoneNumber(),
+            activity.getLatitude(), activity.getLongitude(),
+            activity.getRating(), activity.getUserRatingCount(), activity.getType(),
+            hoursByActivityId.getOrDefault(activity.getId(), List.of())
+        ))
+        .toList();
+}
 
     @Override
     public List<WorkingHours> listWorkingHoursOfActivity(Long id) {
