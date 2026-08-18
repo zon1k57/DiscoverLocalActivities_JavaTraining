@@ -10,6 +10,7 @@ import java.util.List;
 
 @Service
 public class UserServiceImpl implements UserService {
+    protected Integer DEfAULT_LIMIT = 20;
     private final UserRepository userRepository;
 
     public UserServiceImpl(UserRepository userRepository){
@@ -17,9 +18,11 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public List<UserDTO> findAll() {
+    public List<UserDTO> findAll(Integer limit) {
+        int chosenLimit = (limit == null) ? this.DEfAULT_LIMIT : limit;
         return userRepository.findAll()
                 .stream()
+                .limit(chosenLimit)
                 .map(UserDTO::from)
                 .toList();
 

@@ -26,7 +26,6 @@ public class ActivityServiceImpl implements ActivityService {
     }
 
 
-
     // Function for all activity fetch
     @Override
     public List<ActivityWithHoursDTO> findAll(String category, Double minRating, Integer minRatingCount) {
@@ -110,14 +109,17 @@ public class ActivityServiceImpl implements ActivityService {
     // Function for rounding and finding nearby activities
     @Override
     public List<ActivityWithHoursDTO> findNearby(Double lat, Double lon, Double radiusKm,
-                                              String category, Double minRating, Integer minRatingCount) {
+                                              String category) {
+    if (radiusKm == null){
+      radiusKm = 1.0;
+    }
     double latDelta = radiusKm / 111.0;
     double lonDelta = radiusKm / (111.0 * Math.cos(Math.toRadians(lat)));
 
     List<Activity> activities = activityRepository.findWithinBoundingBox(
         lat - latDelta, lat + latDelta,
         lon - lonDelta, lon + lonDelta,
-        category, minRating, minRatingCount
+        category
     );
 
     List<Long> activityIds = activities.stream().map(Activity::getId).toList();

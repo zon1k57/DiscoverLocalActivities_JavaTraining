@@ -4,6 +4,13 @@ import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Map;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class RecommendationsDTO {
     private Long userId;
     private Map<String,Double> userLocation;
@@ -11,5 +18,5 @@ public class RecommendationsDTO {
     private String context;
     private LocalDateTime responseTimestamp;
     private Integer resultCount;
-    private List<ActivityWithHoursDTO> activities;
+    private List<RecommendedActivitiesDTO> activities;
 }
